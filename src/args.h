@@ -1,5 +1,5 @@
-#ifndef HTTP_ARG_H_
-#define HTTP_ARG_H_
+#ifndef HTTP_ARG_H
+#define HTTP_ARG_H
 
 #define ARG_INT(long, short, help, target)                                     \
   {                                                                            \
