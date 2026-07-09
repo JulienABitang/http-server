@@ -21,7 +21,7 @@ HttpResponse httpResponse = {
     .header_head = &httpHeader,
     .body = "Hello World!",
 };
-int main(void) {
+int main(int argc, char **argv) {
   int sfd;
   int opt = 1;
   struct sockaddr_in addr;
